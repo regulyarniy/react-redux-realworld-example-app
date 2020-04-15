@@ -10,7 +10,7 @@ import App from './components/App';
 
 ReactDOM.render((
   <Provider store={store}>
-    <ConnectedRouter history={history}>
+    <ConnectedRouter history={history} basename={`/react-redux-realworld-example-app`}>
       <Switch>
         <Route path="/" component={App} />
       </Switch>
