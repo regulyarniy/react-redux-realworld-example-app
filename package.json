@@ -5,7 +5,7 @@
   "devDependencies": {
     "cross-env": "^5.1.4",
     "prettier": "^2.0.4",
-    "react-scripts": "1.1.1"
+    "react-scripts": "^3.4.1"
   },
   "dependencies": {
     "history": "^4.6.3",
@@ -32,5 +32,17 @@
     "test": "cross-env PORT=4100 react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://regulyarniy.github.io/react-redux-realworld-example-app/"
+  "homepage": "https://regulyarniy.github.io/react-redux-realworld-example-app/",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
