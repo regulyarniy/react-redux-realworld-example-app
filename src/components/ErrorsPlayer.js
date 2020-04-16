@@ -1,6 +1,6 @@
 import React, { useState, Fragment, useRef } from "react";
 import PropTypes from "prop-types";
-import Player from "rrweb-player";
+import Player from "rrweb-player/dist/index";
 
 const ErrorsPlayer = () => {
   const errors = JSON.parse(sessionStorage.getItem(`errors`)) || [];
