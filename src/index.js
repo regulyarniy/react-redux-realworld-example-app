@@ -7,11 +7,9 @@ import { Route, Switch } from "react-router-dom";
 import { ConnectedRouter } from "react-router-redux";
 
 import App from "./components/App";
-import ErrorsCollector from "./components/ErrorsCollector";
 
 ReactDOM.render(
   <Fragment>
-    <ErrorsCollector />
     <Provider store={store}>
       <ConnectedRouter history={history}>
         <Switch>
